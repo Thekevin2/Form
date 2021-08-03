@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>Form</h1>
+        <div class="container">
+            <div class="name">
+                <label for="uname"><b>Name</b></label>
+                <input type="text" placeholder="Enter your name" name="uname" required>
+            </div>
+            <div class="yos">
+                <label for="yos"><b>Year of study</b></label>
+                <input type="text" placeholder="Enter year of study" name="yos" required>
+            </div>
+            <div class="dob">
+                <label for="dob"><b>Date of Birth</b></label>
+                <input type="text" placeholder="Enter Date of Birth" name="dob" required>
+            </div>
+
+
+          <div class="gender">
+            <input type="radio" name="gender" value="male"> Male 
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="others"> Others
+          </div>
+          <h2>Country visited</h2>
+          <label>
+            <input type="checkbox"  name="remember"> Nepal
+            <input type="checkbox"  name="remember"> USA
+            <input type="checkbox"  name="remember"> Australia
+          </label>
+          <label class="tell">
+              <h2>Tell Me About Yourself</h2>
+            <textarea name="Yourself" cols="50" rows="4"></textarea>
+          </label>
+        </div>
+        <button class="submit" type="submit">Submit</button>
+      </form>
+</body>
+</html>
